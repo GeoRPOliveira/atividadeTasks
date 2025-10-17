@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #ffe6f0; 
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.2rem;
+  color: #ff4d94;
+  margin-bottom: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #ff80b3;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ff1a75;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #ffb3cc;
+  width: 80%;
+  margin: 20px 0;
+}
+
+main {
+  width: 100%;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #ffd9e6;
+  padding: 15px 20px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+li strong {
+  font-size: 1.1rem;
+  color: #ff1a75;
+}
+
+form button, a.edit-btn {
+  background: #ff80b3;
+  border: none;
+  padding: 5px 12px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 10px;
+  transition: background 0.3s;
+}
+
+form button:hover, a.edit-btn:hover {
+  background: #ff1a75;
+}
+
+.done {
+  color: #33cc33;
+  font-weight: bold;
+}
+.not-done {
+  color: #ff3333;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
+  color: #ff4d94;
+  font-size: 0.9rem;
+}
+
+form label {
+  font-weight: bold;
+  color: #ff1a75;
+  margin-bottom: 5px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: 2px solid #ff80b3;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+
+form input[type="text"]:focus {
+  border-color: #ff1a75;
+}
+
+form input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #ff1a75;
+  margin-left: 5px;
+} */
